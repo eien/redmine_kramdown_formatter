@@ -6,5 +6,5 @@ Redmine::Plugin.register :kramdown_formatter do
   description 'This provides kramdown as a wiki format'
   version '0.0.1'
 
-  wiki_format_provider 'kramdown', KramdownFormatter::Formatter, KramdownFormatter::Helper
+  wiki_format_provider 'kramdown', KramdownFormatter::Formatter, nil
 end
